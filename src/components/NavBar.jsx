@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Badge from '@mui/material/Badge';
-import logo from '../components/assets/img/volatus_logo_removebg.png';
+//import logo from '../components/assets/img/volatus_logo_removebg.png';
 import styles from '../css/nav.module.css';
 // import styles from '../css/barraNavegacion.module.css';
 import { ShoppingCart, WindowSharp } from '@mui/icons-material';
