@@ -1,0 +1,112 @@
+:root{
+    --paleta_A: #6c3fb0;
+    --paleta_B: #452870;
+    --paleta_C: #9457f0;
+    --paleta_D: #9c5bfc;
+    --paleta_E: #844dd6;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.container1{
+    display: grid;
+    /*place-items: ;*/
+    grid-template-columns: 30% 70%;
+    place-items: center stretch;
+    width: 100%;
+    height: 40vh;
+}
+
+.logoMain{
+    width: 160px;
+    height: 120px;
+}
+
+.cuadro{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    place-items: center;
+    background-color: var(--paleta_E);
+    border-radius: 20px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: black;
+    width: 650px;
+    height: 100px;
+}
+
+.logoUser{
+    width: 50px;
+    height: 50px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    place-self: center;
+    place-content: center;
+    width: 100%;
+    height: 60%;
+    background-color: var(--paleta_E);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    height: 350px;
+}
+
+.info{
+    display: grid;
+    grid-row-gap: 7fr;
+    /* grid-template-rows: repeat(7, 1fr); */
+    width: 100%;
+    height: 100%;
+}
+
+/* .p2_root a{
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+.label{
+    display: grid;
+    place-items: center start;
+    color: white;
+    background-color: var(--paleta_B);
+    border-width: 2px;
+    border-style:solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    text-indent: 1em;
+}
+
+.input {
+    border-width: 1px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 5px;
+    width: auto;
+    text-indent: 1em;
+}
+
+.primaryButton{
+    background-color: var(--paleta_B);
+    color: white;
+    border-width: 2px;
+    border-style:solid;
+    border-color: black;
+    border-radius: 10px;
+    width: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
