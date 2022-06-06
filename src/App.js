@@ -15,6 +15,7 @@ import CrearVuelos from "./components/CrearVuelos";
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
+import { useFirebaseApp } from 'reactfire';
 
 
 // import Contacto from "./components/Contacto";
@@ -34,6 +35,8 @@ import 'primeicons/primeicons.css';
 
 function App() {
 //   const classes = useStyles;
+  const firebase = useFirebaseApp();
+  console.log(firebase);
   return (
         <Router>
             <NavBar/>
